@@ -25,5 +25,27 @@ public class Main {
             System.out.println("Итерация " + i);
         }
 
+        //Задание 5
+        System.out.println("Задание 6.5");
+
+        for (int i=1904; i<2100; i=i+4) {
+            System.out.println(i + " год является високосным.");
+        }
+
+        //Задание 6
+        System.out.println("Задание 6.6");
+
+        for (int i=7; i<100; i=i+7) {
+            System.out.println("Числовая последовательность " + i);
+        }
+
+        //Задание 7
+        System.out.println("Задание 6.7");
+
+        int i=1;
+        for (i=1; i<=512; i=i*2) {
+            System.out.println("Числовая последовательность " + i);
+        }
+
     }
 }
