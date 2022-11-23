@@ -42,9 +42,20 @@ public class Main {
         //Задание 7
         System.out.println("Задание 6.7");
 
-        int i=1;
-        for (i=1; i<=512; i=i*2) {
-            System.out.println("Числовая последовательность " + i);
+        int z=1;
+        for (z=1; z<=512; z=z*2) {
+            System.out.println("Числовая последовательность " + z);
+        }
+
+        //Задание 8 и 9
+        System.out.println("Задание 6.8_6.9");
+
+        int savings = 29000;
+        int total = 0;
+        for (int y=1; y<=12; y++) {
+            total = total + total/100;   // эта строка - решение для задачи 6.9. Для вывода решения задачи 6.8 строку закомментровать
+            total = total + savings;
+            System.out.println("Месяц " + y + ", сумма накоплений равна " + total + " рублей.");
         }
 
     }
